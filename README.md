@@ -1,57 +1,26 @@
-<!DOCTYPE html>
-<html>
-   <head>
-       <title>Photo Feed</title>
-       <link rel="stylesheet" href="styles.css">
-      
-   
-   </head>
+# ![4Geeks Logo](http://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,16) HTML Hello
 
-   <body>
-       <div class="header">
-           <h1>Breathe Code Photo Feed</h1>
-       </div>
-       <div class="container">
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/html-hello.git)
 
-            <div class="post">
-                <div class="box-header">
-                    <h3>My first photo</h3>
-                    <p>12/14</p>
-                </div>
-                <div class="photo">
-                    <img src="https://media.istockphoto.com/photos/groups-of-dogs-labrador-puppies-puppy-chocolate-labrador-retriever-in-picture-id1069531070?k=6&m=1069531070&s=612x612&w=0&h=ZIQVwmSlyyROu1M5ei_N31SHKjvfGLfORsU1B6pu_ko=" alt="three labrador puppies sitting and looking adorable" object-fit="cover"/>
-                </div>
-                <div class="description">
-                    <p>This is my first photo of the feed. This is a multi line comment for testing purposes.  I am learning to code with <strong>#BreatheCode</strong>
-                    </p>   
-                </div>
-            </div>
+The most basic boilerplate for any 4Geeks Academy student using the [gitpod.io](gitpod.io) coding editor.
 
-            <div class="post">
-                <div class="box-header">
-                    <h3>Some cute thing</h3>
-                    <p>12/17</p>
-                </div>
-                <div class="photo">
-                    <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZG9nc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80" alt="A corgie dog and a yorkie dog running down a path together with the sun shinng behind them">
-                </div>
-                <div class="description">
-                    <p>The internet approves these cute dogs... <strong>#BreatheCode</strong></p>
-                </div>
-            </div>
-            
-            <div class="post">
-                <div class="box-header">
-                    <h3>And of course... food!</h3>
-                    <p>12/17</p>
-                </div>
-                <div class="photo">
-                    <img src="https://media.istockphoto.com/photos/bowl-dish-with-brown-rice-cucumber-tomato-green-peas-red-cabbage-picture-id1047798504?k=6&m=1047798504&s=612x612&w=0&h=SqHh8UZas82kGOifausDLjh5WcJRT4T4pFtBNB-BVg4=" alt="A very colorful bowl of vegan food: peas, chickpeas, carrots, lettuce, rice">
-                </div>
-                <div class="description">
-                    <p>Because no photo feed is cool without some food on it! <strong>#BreatheCode</strong></p>                    
-                </div>
-            </div>
-       </div>
-   </body>
-</html>
+[![How to open html/css preview of my project in gitpod](https://github.com/4GeeksAcademy/Templates-Boilerplates/blob/master/assets/hello-html-intro.png?raw=true)](https://youtu.be/dfbDCMu_p-0)
+
+## What to do next?
+
+Create an `index.html` file with the [basic HTML structure](http://content.breatheco.de/lesson/what-is-html-learn-html#page-structure) and see it live by running a web-server using the following command:
+
+```sh
+$ pip3 install flask && python3 server.py
+```
+
+- You can create as many HTML files as you want
+- You can also create CSS files and import them into your website using a `<link>` tag placed between the `<head></head>` tags, like this:
+
+```html
+<head>
+  ...
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  ...
+</head>
+```
