@@ -1,132 +1,57 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
+   <head>
+       <title>Photo Feed</title>
+       <link rel="stylesheet" href="styles.css">
+      
+   
+   </head>
 
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <script src="https://kit.fontawesome.com/9ac69a6629.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Do+Hyeon&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+   <body>
+       <div class="header">
+           <h1>Breathe Code Photo Feed</h1>
+       </div>
+       <div class="container">
 
-    <link rel="stylesheet" type="text/css" href="styles.css">
-
-    <title>Hello, world!</title>
-</head>
-
-<body>
-
-    <body style="background-color:lightgray;">
-
-        <nav class="navbar navbar-light bg-light">
-            <div class="container">
-
-                <a class="navbar-brand" href="#" style="font-family: 'Do Hyeon', sans-serif;">
-                    <i class="fab fa-instagram fa-lg"></i>
-                    Instagram
-                </a>
-            </div>
-            <button type="button mr-5" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"
-                style="background-color: green;">
-                Create New Post
-            </button>
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-body">
-                            <input class="form-control mr-sm-2" type="search" aria-label="Search">
-                            <div style="padding-top: 10px;">
-                                <button>
-                                    <a class="fas fa-camera" href="#" style="color: grey;"></a>
-                                </button>
-                                <button>
-                                    <a class="fas fa-map-marker" href="#" style="color: grey;"></a>
-                                </button>
-                            </div>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-                            <button type="button" class="btn btn-primary"
-                                style="background-color: green;">Publish</button>
-                        </div>
-                    </div>
+            <div class="post">
+                <div class="box-header">
+                    <h3>My first photo</h3>
+                    <p>12/14</p>
+                </div>
+                <div class="photo">
+                    <img src="https://media.istockphoto.com/photos/groups-of-dogs-labrador-puppies-puppy-chocolate-labrador-retriever-in-picture-id1069531070?k=6&m=1069531070&s=612x612&w=0&h=ZIQVwmSlyyROu1M5ei_N31SHKjvfGLfORsU1B6pu_ko=" alt="three labrador puppies sitting and looking adorable" object-fit="cover"/>
+                </div>
+                <div class="description">
+                    <p>This is my first photo of the feed. This is a multi line comment for testing purposes.  I am learning to code with <strong>#BreatheCode</strong>
+                    </p>   
                 </div>
             </div>
 
-            <div class="dropdown mr-5">
-                <i class="fas fa-cog fa-lg" class="dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false"></i>
-                <i class="fas fa-caret-down fa-lg" class="dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false"></i>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Privacy</a>
-                    <a class="dropdown-item" href="#">Account Settings</a>
-                    <a class="dropdown-item" href="#">Personal Info</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Log Out</a>
+            <div class="post">
+                <div class="box-header">
+                    <h3>Some cute thing</h3>
+                    <p>12/17</p>
+                </div>
+                <div class="photo">
+                    <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZG9nc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80" alt="A corgie dog and a yorkie dog running down a path together with the sun shinng behind them">
+                </div>
+                <div class="description">
+                    <p>The internet approves these cute dogs... <strong>#BreatheCode</strong></p>
                 </div>
             </div>
-        </nav>
-
-        <div style="padding-top: 15px;">
-            <ul class="nav justify-content-center">
-                <li class="nav-item" style="padding-right: 10px;">
-                    <a class="fas fa-bars fa-lg" href="index.html" style="color: grey;"></a>
-                </li>
-                <li class="nav-item">
-                    <a class="fas fa-square fa-lg" href="secondpage.html" style="color: grey;"></a>
-                </li>
-            </ul>
-        </div>
-        <div class="container-fluid p-0">
-
-            <div class="row no-gutters">
-                <div class="col-4"><img src="https://placeimg.com/475/301/animals" class="img-fluid"
-                        alt="Responsive image"></div>
-                <div class="col-4"> <img src="https://placeimg.com/475/302/animals" class="img-fluid"
-                        alt="Responsive image"></div>
-                <div class="col-4"> <img src="https://placeimg.com/475/303/animals" class="img-fluid"
-                        alt="Responsive image"></div>
-
+            
+            <div class="post">
+                <div class="box-header">
+                    <h3>And of course... food!</h3>
+                    <p>12/17</p>
+                </div>
+                <div class="photo">
+                    <img src="https://media.istockphoto.com/photos/bowl-dish-with-brown-rice-cucumber-tomato-green-peas-red-cabbage-picture-id1047798504?k=6&m=1047798504&s=612x612&w=0&h=SqHh8UZas82kGOifausDLjh5WcJRT4T4pFtBNB-BVg4=" alt="A very colorful bowl of vegan food: peas, chickpeas, carrots, lettuce, rice">
+                </div>
+                <div class="description">
+                    <p>Because no photo feed is cool without some food on it! <strong>#BreatheCode</strong></p>                    
+                </div>
             </div>
-            <div class="row no-gutters">
-                <div class="col-4 m-0 p-0"><img src="https://placeimg.com/475/304/animals" class="img-fluid"
-                        alt="Responsive image"></div>
-                <div class="col-4 m-0 p-0"> <img src="https://placeimg.com/475/305/animals" class="img-fluid"
-                        alt="Responsive image"></div>
-                <div class="col-4 m-0 p-0"> <img src="https://placeimg.com/475/306/animals " class="img-fluid"
-                        alt="Responsive image"></div>
-
-            </div>
-            <div class="row no-gutters">
-                <div class="col-4"><img w-100 src="https://placeimg.com/475/307/animals" class="img-fluid"
-                        alt="Responsive image"></div>
-                <div class="col-4"> <img w-100 src="https://placeimg.com/475/308/animals" class="img-fluid"
-                        alt="Responsive image"></div>
-                <div class="col-4"> <img w-100 src="https://placeimg.com/475/309/animals" class="img-fluid"
-                        alt="Responsive image"></div>
-
-            </div>
-    </body>
-
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
-</body>
-
+       </div>
+   </body>
 </html>
